@@ -1,0 +1,34 @@
+.ftr{
+    margin-top: 40px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #22313f;
+    color: white;
+  }
+  .ftr p{
+    font-size: 13px;
+  }
+  .ftr .tdn{
+    text-decoration: none !important;
+    color:white;
+    font-size: 30px;
+    margin: 30px 10px;
+  }
+  
+  .ftr .tdn:hover{
+    text-decoration: none ;
+    color:white;
+    opacity: 0.8;
+  }
+  .bgk{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url("image/ph3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }

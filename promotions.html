@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="propos.css" />
+    <link rel="stylesheet" href="events.css" />
+    <link rel="stylesheet" href="promo.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css"
+      rel="stylesheet"
+    />
+
+    <!-- Default Theme -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Leckerli+One&family=Rochester&display=swap"
+      rel="stylesheet"
+    />
+    <title>PROMOTIONS</title>
+  </head>
+  <body>
+    <nav id="navf">
+      <div class="navigation container">
+        <img src="image/mylogo.png" alt="logo" id="logo" class="nav_logo" />
+        <ul class="nav_list navwithcolor" id="navigation_list">
+          <li><a href="#">Accueil</a></li>
+          <li class="parent_nav_drop">
+            <a href="#">Promotion</a>
+            <ul class="nav_drop">
+              <li id="tr"><a href="#">1ére Année</a></li>
+              <li><a href="#">2éme Année</a></li>
+              <li><a href="#">3éme Année</a></li>
+              <li><a href="#">4éme Année</a></li>
+              <li><a href="#">5éme Année</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Formation</a></li>
+          <li><a href="#">A propos</a></li>
+          <li><a href="#">Contactez Nous</a></li>
+        </ul>
+        <div class="nav_menu" id="icon">
+          <ion-icon
+            name="menu"
+            onclick="drop()"
+            style="cursor: pointer"
+          ></ion-icon>
+        </div>
+      </div>
+
+      <ul class="navigation_list_responsive" id="navigation">
+        <li>Accueil</li>
+        <li>Promotion</li>
+        <li>Formation</li>
+        <li>A propos</li>
+        <li>Contactez Nous</li>
+      </ul>
+    </nav>
+    <div class="headerpr">
+      </div>
+    <div class="ige">
+        <h1>IGE kach 3afsa</h1>
+      </div>
+
+<div class="owl_parent">
+  
+        <div class="se">
+          <h2>Semstre1</h2> 
+         
+        </div> 
+      <div class="see container" id="owl-demo55">
+        <div class="mdl item m1">
+          
+          <div class="mdl_info "> Analyse</div>
+        </div>
+        <div class="mdl item m2">
+          <div class="mdl_info">Electricité</div>
+        </div>
+        <div class="mdl item m3">
+          <div class="mdl_info">Algebre</div>
+        </div>
+        <div class="mdl item m4">
+          <div class="mdl_info">Technique d'expression</div>
+        </div>
+        <div class="mdl item m5">
+          <div class="mdl_info">Analyse</div>
+        </div>
+        <div class="mdl item m6">
+          <div class="mdl_info">Analyse</div>
+        </div>
+      </div>
+            
+      <div class="se">
+        <h2>Semstre2</h2> 
+        
+      </div> 
+      <div class="see container" id="owl-demo333">
+        <div class="mdl item">
+          <div class="mdl_info">Analyse</div>
+        </div>
+        <div class="mdl item">
+          <div class="mdl_info">Analyse</div>
+        </div>
+        <div class="mdl item">
+          <div class="mdl_info">Analyse</div>
+        </div>
+        <div class="mdl item">
+          <div class="mdl_info">Analyse</div>
+        </div>
+      </div>
+</div>
+<script>
+  var nav = document.getElementById("navigation");
+  function drop() {
+    if (nav.style.display == "none") {
+      nav.style.display = "block";
+    } else {
+      nav.style.display = "none";
+    }
+  }
+</script>
+    <script>
+      var nav = document.getElementById("navigation");
+      function drop() {
+        if (nav.style.display == "none") {
+          nav.style.display = "block";
+        } else {
+          nav.style.display = "none";
+        }
+      }
+    </script>
+    
+    <script>
+      $(document).ready(function () {
+        $("#owl-demo55").owlCarousel({
+          autoPlay: 3000, 
+          items: 3,
+          itemsDesktop: [1199, 3],
+          itemsDesktopSmall: [979, 3],
+          itemsTablet: [700, 3],
+          itemsTabletSmall: [600, 3],
+        });
+      });
+
+
+      $(document).ready(function () {
+        $("#owl-demo333").owlCarousel({
+          autoPlay: 3000, 
+          items: 3,
+          itemsDesktop: [1199, 3],
+          itemsDesktopSmall: [979, 3],
+          itemsTablet: [700, 3],
+          itemsTabletSmall: [600, 3],
+        });
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+  </body>
+</html>

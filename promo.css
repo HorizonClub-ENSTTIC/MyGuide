@@ -1,0 +1,115 @@
+.years {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.spec {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.year1 {
+  width: 300px;
+  height: 300px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  -webkit-box-shadow: 10px 10px 31px -6px rgba(181, 175, 181, 0.6);
+  -moz-box-shadow: 10px 10px 31px -6px rgba(181, 175, 181, 0.6);
+  box-shadow: 10px 10px 31px -6px rgba(181, 175, 181, 0.6);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.year1:hover {
+  -webkit-box-shadow: 10px 10px 31px 8px rgba(181, 175, 181, 0.6);
+  -moz-box-shadow: 10px 10px 31px 8px rgba(181, 175, 181, 0.6);
+  box-shadow: 10px 10px 31px 8px rgba(181, 175, 181, 0.6);
+  padding-left: 30px;
+}
+.headerpr {
+  height: 400px;
+  background-image: url(image/education.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  align-items: center;
+  flex-direction: column;
+}
+.headerpr H1 {
+  font-family: Poppins-Bold;
+  color: white;
+}
+.seme {
+  display: flex;
+  margin-top: 70px;
+  flex-direction: column;
+}
+.see {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 400px;
+  margin: 10px;
+ 
+}
+.owl_parent {
+  
+}
+.ige {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+.mdl {
+  width: 300px;
+  height: 350px;
+  background-size: cover;
+  
+  display: flex;
+  align-items: flex-end;
+  margin: 10px;
+}
+.m1{
+  background-image: url("image/analyse.jpg");
+}
+.m2{
+  background-image: url("image/elect.jpg");
+}
+.m3{
+  background-image: url("image/alg.jpg");
+  background-position: center;
+}
+.mdl_info {
+  
+  
+  background-color: rgba(51, 16, 107,0.85);
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 30px 0px;
+  transition: 0.5s;
+  cursor: pointer;
+  height: 80px;
+  width: 100%;
+}
+.mdl_info:hover {
+  height: 200px;
+}
+.se{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.icon{
+  font-size: 50px;
+  background-color: crimson;
+  border-radius: 17px;
+}

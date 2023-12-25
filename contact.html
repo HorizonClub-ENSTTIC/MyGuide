@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+<body>
+<div class="bgk">
+    <nav id="navf">
+        <div class="navigation container">
+          <img src="image/mylogo.png" alt="logo" id="logo" class="nav_logo" />
+          <ul class="nav_list navwithcolor" id="navigation_list">
+            <li><a href="#">Accueil</a></li>
+            <li class="parent_nav_drop">
+              <a href="#">Promotion</a>
+              <ul class="nav_drop">
+                <li id="tr"><a href="#">1ére Année</a></li>
+                <li><a href="#">2éme Année</a></li>
+                <li><a href="#">3éme Année</a></li>
+                <li><a href="#">4éme Année</a></li>
+                <li><a href="#">5éme Année</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Formation</a></li>
+            <li><a href="#">A propos</a></li>
+            <li><a href="#">Contactez Nous</a></li>
+          </ul>
+          <div class="nav_menu" id="icon">
+            <ion-icon
+              name="menu"
+              onclick="drop()"
+              style="cursor: pointer"
+            ></ion-icon>
+          </div>
+        </div>
+  
+        <ul class="navigation_list_responsive" id="navigation">
+          <li>Accueil</li>
+          <li>Promotion</li>
+          <li>Formation</li>
+          <li>A propos</li>
+          <li>Contactez Nous</li>
+        </ul>
+      </nav>
+    
+    <div class="contact">
+       <!-- <div class="contact_head">
+            <h2>Contactez-Nous</h2>
+        </div>-->
+        <div class="parent_form" >
+        <div class="contact_form">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Entrez Votre Nom">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Prénom</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Entrez Votre Prénom">
+              </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Adresse Email </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nom@exemple.com">
+              </div>
+              
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Entrez Votre Message" rows="3"></textarea>
+              </div>
+              <button class="submit-btn">Envoyer</button>
+        </div>
+        <div class="contact_adress">
+            <div>
+                <h2 class="mb-3">Contactez-Nous</h2>
+           <div class="mail d-flex mb-3">
+            <ion-icon class="mr-3" name="mail-outline"></ion-icon>
+               horizon@gmail.com 
+           </div>
+           <div class="phone d-flex mb-3">
+            <ion-icon class="mr-3" name="call-outline"></ion-icon>
+               0667311797
+           </div>
+           <div class="adress d-flex">
+            <ion-icon class="mr-3" name="location-outline"></ion-icon>
+                oran es senia
+           </div>
+           <h2 class="mt-5 mb-3 ">Suivez-Nous</h2>
+              <div class="d-flex justify-content-around">
+                 <a class="tdn" href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                 <a class="tdn" href="#"><ion-icon name="logo-instagram"></ion-icon></a> 
+                 <a class="tdn" href="#"><ion-icon name="logo-youtube"></ion-icon></a> 
+              </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+   </div>
+
+    <footer class="ftr">
+        <div class="icon">
+         <a class="tdn" href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+         <a class="tdn" href="#"><ion-icon name="logo-instagram"></ion-icon></a> 
+         <a class="tdn" href="#"><ion-icon name="logo-youtube"></ion-icon></a> 
+        </div>
+         <p>Copyright ©2021 MyGuide Powered By Horizon. Tous les droits sont réservés.</p>
+    </footer>
+
+</body>
+</html>

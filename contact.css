@@ -1,0 +1,116 @@
+
+.contact_head{
+    width: 100%;
+    height: 300px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url("image/blue.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.parent_form{
+    margin-bottom: 100px;
+    background-image: url("image/younes.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contact_form{
+    background-color: #ddd;
+    opacity: 0.8;
+    width: 45%;
+    margin: 120px 20px ;
+    border:1px solid #e2e2ee ;
+    padding: 20px;
+    border-radius: 10px;
+    
+    
+}
+.contact_adress{
+    background-color: #ddd;
+    opacity: 0.8;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin: 120px 20px;
+    border:1px solid #e2e2ee ;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-family: Poppins-Regular;
+    color: #333;
+}
+@media screen and (max-width:770px){
+    .parent_form {
+        flex-wrap: wrap;
+    } 
+    .contact_adress,.contact_form{
+        width: 100%;
+
+    }
+}
+.submit-btn{
+    float: right;
+    background-color: rgba(0,0,0,0.5);
+    font-family: Poppins-Regular;
+    border-radius: 50px;
+    color: white;
+    padding: 0px 15px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+.submit-btn:hover{
+    background-color:black;
+}
+.tdn{
+    text-decoration: none !important;
+    color: #333;
+}
+.ftr{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #22313f;
+    color: white;
+  }
+  .ftr p{
+    font-size: 13px;
+  }
+  .ftr .tdn{
+    text-decoration: none !important;
+    color:white;
+    font-size: 30px;
+    margin: 30px 10px;
+  }
+  
+  .ftr .tdn:hover{
+    text-decoration: none ;
+    color:white;
+    opacity: 0.8;
+  }
+  .bgk{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url("image/ph3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
